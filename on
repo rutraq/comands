@@ -1,4 +1,2 @@
 systemctl stop NetworkManager
 ip link set wlan0 down && iw wlan0 set type monitor && ip link set wlan0 up
-cd wifite2
-./Wifite.py
